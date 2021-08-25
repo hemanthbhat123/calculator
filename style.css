@@ -2,6 +2,11 @@ body{
 	font-family: 'Open Sans',sans-serif;
 	background-color: black;
 }
+marquee{
+	position: relative;
+	font-size:x-large;
+	color:red;
+}
 #container{
 	width: 1000px;
 	height: 550px;
