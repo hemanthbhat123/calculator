@@ -1,91 +1,46 @@
 body{
-	font-family: 'Open Sans',sans-serif;
-	background-color: black;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
-marquee{
-	position: relative;
-	font-size:x-large;
-	color:red;
+
+.container{
+    text-align: center;
 }
-#container{
-	width: 1000px;
-	height: 550px;
-	background-color: teal;
-	margin: 20px auto;	
+
+table{
+    margin: auto;
 }
-#calculator{
-	width: 320px;
-	height: 520px;
-	background-color: #eaedef;
-	margin: 0 auto;
-	top: 20px;
-	position: relative;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+input{
+    border-radius: 21px;
+    border: 5px solid #244624;
+    font-size:34px;
+    height: 65px;
+    width: 456px;
 }
-#result{
-	height: 120px;
-    background-color:rgba(117, 115, 115, 0.329);
-}
-#history{
-	text-align: right;
-	height: 20px;
-	margin: 0 20px;
-	padding-top: 20px;
-	font-size: 15px;
-	color: #919191;
-}
-#output{
-	text-align: right;
-	height: 60px;
-	margin: 10px 20px;
-	font-size: 30px;
-}
-#keyboard{
-	height: 400px;
-}
-.operator, .number, .empty{
-	width: 50px;
-	height: 50px;
-	margin: 15px;
-	float: left;
-	border-radius: 50%;
-	border-width: 0;
-	font-weight: bold;
-	font-size: 15px;
-}
-.number, .empty{
-	background-color: #eaedef;
-}
-#clear,#backspace,button:nth-child(3){
-    background-color:rgba(105, 105, 105, 0.521);
-}
-.number,.operator{
+
+button{
+    border-radius: 20px;
+    font-size: 40px;
+    background: #7c46b9a1;
+    width: 102px;
+    height: 90px;
+    margin: 6px;
 	cursor: pointer;
 }
-.operator:active,.number:active{
-	font-size: 10px;
+button:active{
+	font-size:large;
 }
-.operator:focus, .number:focus, .empty:focus{
-	outline:0;
+
+.calculator{ 
+    border: 5px solid;
+    background-color: #706c6cd0;
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+    
 }
-button:nth-child(4){
-	font-size: 20px;
-	background-color: #20b2aa;
-}
-button:nth-child(8){
-	font-size: 20px;
-	background-color: #ffa500;
-}
-button:nth-child(12){
-	font-size: 20px;
-	background-color: #f08080;
-}
-button:nth-child(16){
-	font-size: 20px;
-	background-color: #7d93e0;
-}
-button:nth-child(20){
-	font-size: 20px;
-	background-color: #9477af;
+
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
